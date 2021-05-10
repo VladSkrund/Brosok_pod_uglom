@@ -37,6 +37,7 @@ namespace Brosok_pod_uglom
             timer1.Start();
             timer1.Interval = 1;
         }
+        //equasions methods
         static void GetForceX( float DragCoefficient, float VelocityX, out float ForceX)
         {
             ForceX = DragCoefficient * VelocityX * VelocityX;
